@@ -1,0 +1,47 @@
+ManifestFileVersion: 0
+CRC: 1963280541
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: dc8531af55f400a41d15982c345fba2e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: dc8531af55f400a41d15982c345fba2e
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Arts/ver.Alpha/Grid/bomb_icon.png
+- Assets/Arts/ver.Alpha/Grid/suppressor_icon.png
+- Assets/Arts/ver.Alpha/Grid/car_icon.png
+- Assets/Arts/ver.Alpha/Grid/bcg/gridBcg_yellow.png
+- Assets/Arts/ver.Alpha/Grid/bcg/gridBcg_white.png
+- Assets/Arts/ver.Alpha/Grid/bounce_ball_gun_icon.png
+- Assets/Arts/ver.Alpha/Grid/medical_kit_icon.png
+- Assets/Arts/ver.Alpha/Grid/raincloud_icon.png
+- Assets/Arts/ver.Alpha/Grid/reputation_icon.png
+- Assets/Arts/ver.Alpha/Grid/water_candle_icon.png
+- Assets/Arts/ver.Alpha/Grid/dumbbell_icon.png
+- Assets/Arts/ver.Alpha/Grid/brick_icon.png
+- Assets/Arts/ver.Alpha/Grid/glowdust_icon.png
+- Assets/Arts/ver.Alpha/Grid/bcg/gridBcg_red.png
+- Assets/Arts/ver.Alpha/Grid/token_icon.png
+- Assets/Arts/ver.Alpha/Grid/lottery_icon.png
+- Assets/Arts/ver.Alpha/Grid/armor_icon.png
+- Assets/Arts/ver.Alpha/Grid/random_score_icon.png
+- Assets/Arts/ver.Alpha/Grid/add_score_machine_icon.png
+- Assets/Arts/ver.Alpha/Grid/recast_icon.png
+- Assets/Arts/ver.Alpha/Grid/boxing_glove_icon.png
+- Assets/Arts/ver.Alpha/Grid/dice_icon.png
+- Assets/Arts/ver.Alpha/Grid/retreat_icon.png
+- Assets/Arts/ver.Alpha/Grid/shotgun_icon.png
+- Assets/Arts/ver.Alpha/Grid/aim_icon.png
+- Assets/Arts/ver.Alpha/Grid/stonewhell_icon.png
+Dependencies: []

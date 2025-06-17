@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 1454551306
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9659f0a7a8026102ebaeb7a1b02351c9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8e832d2ea6317dbf922911253ae38b24
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 9659f0a7a8026102ebaeb7a1b02351c9
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 836d7b4f67b16264880f63eec25ee983, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Prefabs/VFXPrefab/VFXEnemyDeathPrefab.prefab
+Dependencies: []

@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 733034709
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4f1e96d64b906d6881f6554b21344507
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 75ecdca705c2c5693a35b0e2226f88dc
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 4f1e96d64b906d6881f6554b21344507
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: 11500000, guid: 6e37f78a0259edd458a82001790d8785, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: WarBall.Enemy.Level.EnemyLevelSO/EnemySetting
+- AssemblyName: Assembly-CSharp
+  ClassName: WarBall.Enemy.Level.EnemyLevelSO/Turn
+Assets:
+- Assets/SO/Level/Level_1.asset
+- Assets/SO/Level/Level_test.asset
+Dependencies: []

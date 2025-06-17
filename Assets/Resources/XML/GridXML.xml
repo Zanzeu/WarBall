@@ -1,0 +1,243 @@
+<Grid>
+  <Dice id="grid_dice" level="1">
+    <Name>骰子</Name>
+    <Description>每次撞击后随机投掷一次</Description>
+    <Score>0</Score>
+    <Joke>但愿都是六点</Joke>
+    <IconPath>dice_icon</IconPath>
+    <BcgPath>gridBcg_white</BcgPath>
+    <PointSprites>
+      <SpritePath>grid_dice_1</SpritePath>
+      <SpritePath>grid_dice_2</SpritePath>
+      <SpritePath>grid_dice_3</SpritePath>
+      <SpritePath>grid_dice_4</SpritePath>
+      <SpritePath>grid_dice_5</SpritePath>
+      <SpritePath>grid_dice_6</SpritePath>
+    </PointSprites>
+  </Dice>
+
+  <StoneWhell id="grid_stone_whell" level="1">
+    <Name>石轮</Name>
+    <Description>每次撞击后增加1临时攻击力</Description>
+    <Score>20</Score>
+    <Joke>磨石轮</Joke>
+    <IconPath>stonewhell_icon</IconPath>
+    <BcgPath>gridBcg_white</BcgPath>
+    <ATKValue>1</ATKValue>
+  </StoneWhell>
+
+  <Token id="grid_token" level="10">
+    <Name>代币</Name>
+    <Description>每次撞击后增加1代币</Description>
+    <Score>100</Score>
+    <Joke>代币</Joke>
+    <IconPath>token_icon</IconPath>
+    <BcgPath>gridBcg_yellow</BcgPath>
+  </Token>
+
+  <Armor id="grid_armor" level="1">
+    <Name>板甲</Name>
+    <Description>每次撞击后增加1临时防御力</Description>
+    <Score>20</Score>
+    <Joke>穿板甲</Joke>
+    <IconPath>armor_icon</IconPath>
+    <BcgPath>gridBcg_white</BcgPath>
+    <DEFValue>1</DEFValue>
+  </Armor>
+
+  <Dumbbell id="grid_dumbbell" level="1">
+    <Name>哑铃</Name>
+    <Description>每次撞击后增加5临时生命值</Description>
+    <Score>20</Score>
+    <Joke>举哑铃</Joke>
+    <IconPath>dumbbell_icon</IconPath>
+    <BcgPath>gridBcg_white</BcgPath>
+    <HPValue>5</HPValue>
+  </Dumbbell>
+
+  <Aim id="grid_aim" level="1">
+    <Name>瞄准</Name>
+    <Description>每次撞击后增加5%临时暴击率</Description>
+    <Score>20</Score>
+    <Joke>瞄准</Joke>
+    <IconPath>aim_icon</IconPath>
+    <BcgPath>gridBcg_white</BcgPath>
+    <CRTRValue>0.05</CRTRValue>
+  </Aim>
+
+  <BoxingGlove id="grid_boxing_glove" level="1">
+    <Name>拳套</Name>
+    <Description>每次撞击后增加10%临时暴击伤害</Description>
+    <Score>20</Score>
+    <Joke>打拳</Joke>
+    <IconPath>boxing_glove_icon</IconPath>
+    <BcgPath>gridBcg_white</BcgPath>
+    <DMGValue>0.1</DMGValue>
+  </BoxingGlove>
+
+  <AddScoreMachine id="grid_add_score_machine" level="1">
+    <Name>加分器</Name>
+    <Description>每次撞击后增加10%临时分数率</Description>
+    <Score>20</Score>
+    <Joke>加分</Joke>
+    <IconPath>add_score_machine_icon</IconPath>
+    <BcgPath>gridBcg_white</BcgPath>
+    <SCOREValue>0.1</SCOREValue>
+  </AddScoreMachine>
+
+  <WaterCandle id="grid_water_candle" level="2">
+    <Name>水蜡烛</Name>
+    <Description>每次撞击后增加10%临时刷怪率</Description>
+    <Score>40</Score>
+    <Joke>刷怪</Joke>
+    <IconPath>water_candle_icon</IconPath>
+    <BcgPath>gridBcg_white</BcgPath>
+    <SPAWNValue>0.1</SPAWNValue>
+  </WaterCandle>
+
+  <Glowdust id="grid_glowdust" level="2">
+    <Name>萤尘</Name>
+    <Description>每次撞击后减少5%临时冷却</Description>
+    <Score>40</Score>
+    <Joke>萤尘</Joke>
+    <IconPath>glowdust_icon</IconPath>
+    <BcgPath>gridBcg_white</BcgPath>
+    <COOLValue>-0.05</COOLValue>
+  </Glowdust>
+
+  <MedicalKit id="grid_medical_kit" level="1">
+    <Name>医疗包</Name>
+    <Description>每次撞击后恢复生命值</Description>
+    <Score>20</Score>
+    <Joke>nice!大夫</Joke>
+    <IconPath>medical_kit_icon</IconPath>
+    <BcgPath>gridBcg_white</BcgPath>
+    <RecoverValue>2</RecoverValue>
+  </MedicalKit>
+
+  <Bomb id="grid_bomb" level="1">
+    <Name>炸弹</Name>
+    <Description>撞击3次后爆炸</Description>
+    <Score>30</Score>
+    <Joke>炸炸炸！！！</Joke>
+    <IconPath>bomb_icon</IconPath>
+    <BcgPath>gridBcg_white</BcgPath>
+    <MaxCollisionCount>3</MaxCollisionCount>
+    <ExplodeBullet>explodeBulletPrefab</ExplodeBullet>
+  </Bomb>
+
+  <RandomScore id="grid_random_score" level="1">
+    <Name>随机分</Name>
+    <Description>每次撞击后获得随机分数(-999—999)</Description>
+    <Score>0</Score>
+    <Joke>这是一场豪赌！</Joke>
+    <IconPath>random_score_icon</IconPath>
+    <BcgPath>gridBcg_white</BcgPath>
+    <MinVal>-999</MinVal>
+    <MaxVal>999</MaxVal>
+  </RandomScore>
+
+  <Recast id="grid_recast" level="2">
+    <Name>重铸</Name>
+    <Description>每次撞击后永久获得属性(-3—5)</Description>
+    <Score>60</Score>
+    <Joke>千锤百炼！</Joke>
+    <IconPath>recast_icon</IconPath>
+    <BcgPath>gridBcg_white</BcgPath>
+    <MinVal>-3</MinVal>
+    <MaxVal>5</MaxVal>
+  </Recast>
+
+  <Lottery id="grid_lottery" level="2">
+    <Name>彩票</Name>
+    <Description>每次撞击后花费300分购买一张彩票(奖池100000分！)</Description>
+    <Score>0</Score>
+    <Joke>阳光好刺眼啊！</Joke>
+    <IconPath>lottery_icon</IconPath>
+    <BcgPath>gridBcg_white</BcgPath>
+    <Price>300</Price>
+  </Lottery>
+
+  <Retreat id="grid_retreat" level="3">
+    <Name>撤退</Name>
+    <Description>撞击后立即结束当前回合</Description>
+    <Score>0</Score>
+    <Joke>走为上策</Joke>
+    <IconPath>retreat_icon</IconPath>
+    <BcgPath>gridBcg_white</BcgPath>
+  </Retreat>
+
+  <Suppressor id="grid_suppressor" level="3">
+    <Name>抑制器</Name>
+    <Description>撞击后球变为初始速度</Description>
+    <Score>500</Score>
+    <Joke>减速</Joke>
+    <IconPath>suppressor_icon</IconPath>
+    <BcgPath>gridBcg_white</BcgPath>
+  </Suppressor>
+
+  <Car id="grid_car" level="1">
+    <Name>汽车</Name>
+    <Description>撞击后发动汽车</Description>
+    <Score>100</Score>
+    <Joke>开车车</Joke>
+    <IconPath>car_icon</IconPath>
+    <BcgPath>gridBcg_white</BcgPath>
+    <CarPrefab>carPrefab</CarPrefab>
+  </Car>
+
+  <Shotgun id="grid_shotgun" level="1">
+    <Name>猎枪</Name>
+    <Description>撞击后发射子弹</Description>
+    <Score>100</Score>
+    <Joke>开火</Joke>
+    <IconPath>shotgun_icon</IconPath>
+    <BcgPath>gridBcg_white</BcgPath>
+    <ReplaceIcon>gun_replace_icon</ReplaceIcon>
+    <FireBulletPrefab>smallBulletPrefab</FireBulletPrefab>
+  </Shotgun>
+
+  <RainCloud id="grid_raincloud" level="1">
+    <Name>雨云</Name>
+    <Description>撞击后生成雨云</Description>
+    <Score>100</Score>
+    <Joke>雨云</Joke>
+    <IconPath>raincloud_icon</IconPath>
+    <BcgPath>gridBcg_white</BcgPath>
+    <RainCloudPrefab>raincloudPrefab</RainCloudPrefab>
+  </RainCloud>
+
+  <Brick id="grid_brick" level="2">
+    <Name>砖块</Name>
+    <Description>撞击后叠加次数，回合结束结算分数</Description>
+    <Score>0</Score>
+    <Joke>噔！噔！噔！</Joke>
+    <IconPath>brick_icon</IconPath>
+    <BcgPath>gridBcg_white</BcgPath>
+    <UIName>brickState</UIName>
+    <ScoreRate>100</ScoreRate>
+  </Brick>
+
+  <Reputation id="grid_reputation" level="2">
+    <Name>声望</Name>
+    <Description>撞击后叠加层数，到达层数后获得奖励</Description>
+    <Score>50</Score>
+    <Joke>有名有望</Joke>
+    <IconPath>reputation_icon</IconPath>
+    <BcgPath>gridBcg_white</BcgPath>
+    <UIName>reputationState</UIName>
+    <UpCount>5</UpCount>
+    <TokenCount>1</TokenCount>
+    <AttributesVal>1</AttributesVal>
+  </Reputation>
+
+  <BounceBallGun id="grid_bounce_ball_gun" level="3">
+    <Name>弹球枪</Name>
+    <Description>撞击后发射一枚弹球</Description>
+    <Score>200</Score>
+    <Joke>弹球</Joke>
+    <IconPath>bounce_ball_gun_icon</IconPath>
+    <BcgPath>gridBcg_white</BcgPath>
+    <BounceBallPrefab>bounceBallPrefab</BounceBallPrefab>
+</BounceBallGun>
+</Grid>

@@ -1,0 +1,15 @@
+<Ball>
+  <MainWarrior id="ball_main_warrior">
+    <Name>战士</Name>
+    <Description>通过经验升级</Description>
+    <IconPath>ball_warrior</IconPath>
+    <HP>30</HP>
+    <ATK>1</ATK>
+    <DEF>0</DEF>
+    <CRTR>0.05</CRTR>
+    <DMG>1.5</DMG>
+    <SCORE>1</SCORE>
+    <COOL>1</COOL>
+    <SPAWN>1</SPAWN>
+  </MainWarrior>
+</Ball>

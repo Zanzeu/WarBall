@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+CRC: 1828412646
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 61f6c049c560408c0e4850e87b8ad75f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 61f6c049c560408c0e4850e87b8ad75f
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Arts/ver.Alpha/Sprite/grid_dice_2.png
+- Assets/Arts/ver.Alpha/Sprite/grid_dice_4.png
+- Assets/Arts/ver.Alpha/Sprite/raincloud.png
+- Assets/Arts/ver.Alpha/Sprite/water-drop.png
+- Assets/Arts/ver.Alpha/Sprite/gun_replace_icon.png
+- Assets/Arts/ver.Alpha/Sprite/grid_dice_3.png
+- Assets/Arts/ver.Alpha/Sprite/grid_dice_5.png
+- Assets/Arts/ver.Alpha/Sprite/grid_dice_6.png
+- Assets/Arts/ver.Alpha/Sprite/glass_bullet.png
+- Assets/Arts/ver.Alpha/Sprite/grid_dice_1.png
+Dependencies: []

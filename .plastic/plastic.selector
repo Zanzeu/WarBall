@@ -1,0 +1,4 @@
+repository "WarBall@tj_zanzeugame@cloud.cn"
+  path "/"
+    smartbranch "/main/EnemyXML"       
+     

@@ -1,0 +1,80 @@
+<Enemy>
+  <VileFluid id="enemy_vilefluid" sort="Normal">
+    <Name>恶臭水滴</Name>
+    <Description>下水道里的水滴</Description>
+    <IconPath>vile_fluid</IconPath>
+    <BcgPath>gridBcg_red</BcgPath>
+    <HP>1</HP>
+    <ATK>1</ATK>
+    <DEF>0</DEF>
+    <SCORE>10</SCORE>
+    <COOL>0</COOL>
+    <LIFE>8</LIFE>
+  </VileFluid>
+  
+  <DevilEye id="enemy_devileye" sort="Normal">
+    <Name>恶魔眼</Name>
+    <Description>低阶死亡恶魔的眼睛</Description>
+    <IconPath>devil_eye</IconPath>
+    <BcgPath>gridBcg_red</BcgPath>
+    <HP>1</HP>
+    <ATK>2</ATK>
+    <DEF>0</DEF>
+    <SCORE>30</SCORE>
+    <COOL>0</COOL>
+    <LIFE>6</LIFE>
+  </DevilEye>
+
+  <SmallGoblin id="enemy_smallgoblin" sort="Normal">
+    <Name>小哥布林</Name>
+    <Description>低阶哥布林</Description>
+    <IconPath>small_goblin</IconPath>
+    <BcgPath>gridBcg_red</BcgPath>
+    <HP>2</HP>
+    <ATK>1</ATK>
+    <DEF>0</DEF>
+    <SCORE>80</SCORE>
+    <COOL>0</COOL>
+    <LIFE>10</LIFE>
+  </SmallGoblin>
+
+  <FloatGhost id="enemy_floatghost" sort="Normal">
+    <Name>漂浮幽灵</Name>
+    <Description>爱散步的幽灵</Description>
+    <IconPath>float_ghost</IconPath>
+    <BcgPath>gridBcg_red</BcgPath>
+    <HP>2</HP>
+    <ATK>2</ATK>
+    <DEF>0</DEF>
+    <SCORE>100</SCORE>
+    <COOL>0</COOL>
+    <LIFE>12</LIFE>
+  </FloatGhost>
+
+  <Slime id="enemy_slime" sort="Normal">
+    <Name>史莱姆</Name>
+    <Description>可爱史莱姆</Description>
+    <IconPath>slime</IconPath>
+    <BcgPath>gridBcg_red</BcgPath>
+    <HP>2</HP>
+    <ATK>1</ATK>
+    <DEF>0</DEF>
+    <SCORE>60</SCORE>
+    <COOL>0</COOL>
+    <LIFE>12</LIFE>
+    <SplitCount>3</SplitCount>
+  </Slime>
+
+  <SlimeSplit id="enemy_slime_split" sort="Normal">
+    <Name>史莱姆</Name>
+    <Description>新分裂出的史莱姆还是原来的史莱姆吗？</Description>
+    <IconPath>slime_split</IconPath>
+    <BcgPath>gridBcg_red</BcgPath>
+    <HP>1</HP>
+    <ATK>1</ATK>
+    <DEF>0</DEF>
+    <SCORE>10</SCORE>
+    <COOL>0</COOL>
+    <LIFE>6</LIFE>
+  </SlimeSplit>
+</Enemy>

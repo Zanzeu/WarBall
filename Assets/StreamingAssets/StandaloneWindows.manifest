@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 2316484974
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: grid
+      Dependencies: {}
+    Info_1:
+      Name: ball
+      Dependencies: {}
+    Info_2:
+      Name: enemy
+      Dependencies: {}
+    Info_3:
+      Name: prefab
+      Dependencies:
+        Dependency_0: grid
+        Dependency_1: sprite
+    Info_4:
+      Name: sprite
+      Dependencies: {}
+    Info_5:
+      Name: levelso
+      Dependencies: {}
+    Info_6:
+      Name: vfx
+      Dependencies: {}

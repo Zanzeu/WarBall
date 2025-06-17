@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e37f78a0259edd458a82001790d8785, type: 3}
+  m_Name: Level_1
+  m_EditorClassIdentifier: 
+  turn:
+  - interval: 3
+    index: 1
+    normalId:
+    - id: enemy_vilefluid
+      count: 2
+    - id: enemy_vilefluid
+      count: 2
+    - id: enemy_vilefluid
+      count: 2
+    - id: enemy_vilefluid
+      count: 2
+    - id: enemy_vilefluid
+      count: 2
+    - id: enemy_vilefluid
+      count: 2
+    - id: enemy_vilefluid
+      count: 2
+  - interval: 3
+    index: 2
+    normalId:
+    - id: enemy_vilefluid
+      count: 2
+    - id: enemy_vilefluid
+      count: 2
+    - id: enemy_vilefluid
+      count: 2
+    - id: enemy_vilefluid
+      count: 2
+    - id: enemy_vilefluid
+      count: 2
+    - id: enemy_vilefluid
+      count: 2
+    - id: enemy_vilefluid
+      count: 2
+  - interval: 3
+    index: 3
+    normalId:
+    - id: enemy_vilefluid
+      count: 2
+    - id: enemy_vilefluid
+      count: 2
+    - id: enemy_vilefluid
+      count: 2
+    - id: enemy_vilefluid
+      count: 2
+    - id: enemy_vilefluid
+      count: 2
+    - id: enemy_devileye
+      count: 2
+    - id: enemy_devileye
+      count: 2
+  - interval: 3
+    index: 4
+    normalId:
+    - id: enemy_vilefluid
+      count: 3
+    - id: enemy_vilefluid
+      count: 3
+    - id: enemy_vilefluid
+      count: 2
+    - id: enemy_devileye
+      count: 2
+    - id: enemy_devileye
+      count: 2
+    - id: enemy_devileye
+      count: 2
+    - id: enemy_devileye
+      count: 2
+  - interval: 3
+    index: 5
+    normalId:
+    - id: enemy_devileye
+      count: 3
+    - id: enemy_devileye
+      count: 3
+    - id: enemy_devileye
+      count: 2
+    - id: enemy_devileye
+      count: 2
+    - id: enemy_devileye
+      count: 2
+    - id: enemy_smallgoblin
+      count: 2
+    - id: enemy_smallgoblin
+      count: 2
+  - interval: 3
+    index: 6
+    normalId:
+    - id: enemy_vilefluid
+      count: 3
+    - id: enemy_vilefluid
+      count: 3
+    - id: enemy_devileye
+      count: 3
+    - id: enemy_devileye
+      count: 3
+    - id: enemy_smallgoblin
+      count: 2
+    - id: enemy_smallgoblin
+      count: 2
+    - id: enemy_smallgoblin
+      count: 2
+  - interval: 3
+    index: 7
+    normalId:
+    - id: enemy_slime
+      count: 1
+    - id: enemy_slime
+      count: 1
+    - id: enemy_slime
+      count: 1
+    - id: enemy_slime
+      count: 1
+    - id: enemy_slime
+      count: 1
+    - id: enemy_slime
+      count: 1
+    - id: enemy_slime
+      count: 1
+  - interval: 3
+    index: 8
+    normalId:
+    - id: enemy_smallgoblin
+      count: 3
+    - id: enemy_smallgoblin
+      count: 3
+    - id: enemy_devileye
+      count: 3
+    - id: enemy_slime
+      count: 1
+    - id: enemy_slime
+      count: 1
+    - id: enemy_floatghost
+      count: 1
+    - id: enemy_floatghost
+      count: 1
+  - interval: 3
+    index: 9
+    normalId:
+    - id: enemy_slime
+      count: 1
+    - id: enemy_slime
+      count: 1
+    - id: enemy_slime
+      count: 1
+    - id: enemy_slime
+      count: 1
+    - id: enemy_slime
+      count: 1
+    - id: enemy_floatghost
+      count: 1
+    - id: enemy_floatghost
+      count: 1
+  - interval: 3
+    index: 10
+    normalId:
+    - id: enemy_floatghost
+      count: 1
+    - id: enemy_floatghost
+      count: 1
+    - id: enemy_floatghost
+      count: 1
+    - id: enemy_floatghost
+      count: 1
+    - id: enemy_floatghost
+      count: 1
+    - id: enemy_floatghost
+      count: 1
+    - id: enemy_floatghost
+      count: 1
